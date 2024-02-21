@@ -1,15 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Message from './Message';
+import CommentsList from './homeWork2/task';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p></p>
-        <Message text='Произвольный текст' />
-      </header>
+      <CommentsList />
     </div>
   );
 }
