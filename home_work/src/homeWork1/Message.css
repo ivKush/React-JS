@@ -1,5 +1,7 @@
 .title {
   border: solid red;
-  color: yellow;
+  color: gray;
   padding: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=Message.css.map */

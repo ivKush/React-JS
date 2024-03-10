@@ -13,7 +13,7 @@
   ]);
 */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function CommentsList() {
   const [comments, setComments] = useState([
